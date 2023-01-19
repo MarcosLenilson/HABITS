@@ -1,2 +1,3 @@
-# HABITS-
-Aplicativo de registro de hábitos 
+# HABITS 
+
+<strong>=> LINGUAGENS UTILIZADAS</strong>
