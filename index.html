@@ -15,14 +15,19 @@
     <header>
       <img src="./assets/logo.svg" alt="Logomarca do aplicativo Habits" />
 
-      <button>
+      <button id="btn-dia">
         <img src="./assets/plus.svg" alt="Ícone sinal de mais roxo" />
         <div>Registrar o meu dia</div>
       </button>
+      <!-- <button id="habits">
+        <img src="./assets/plus.svg" alt="Ícone sinal de mais roxo" />
+        <div>Registrar o meu Habits</div>
+      </button> -->
     </header>
 
     <form id="form-habits">
       <div class="habits">
+        <!-- <input class="habit" type="text" id="text-habits"> -->
         <div class="habit" data-name="run">🏃‍♂️</div>
         <div class="habit" data-name="water">💧</div>
         <div class="habit" data-name="food">🍎</div>
@@ -30,21 +35,7 @@
         <div class="habit" data-name="takePills">💊</div>
       </div>
 
-      <div class="days">
-        <div class="day">
-          <div>03/01</div>
-          <input type="checkbox" name="run" />
-          <input type="checkbox" name="water" />
-          <input type="checkbox" name="food" />
-        </div>
-
-        <div class="day">
-          <div>04/01</div>
-          <input type="checkbox" name="run" />
-          <input type="checkbox" name="water" />
-          <input type="checkbox" name="food" />
-        </div>
-      </div>
+      <div class="days"></div>
     </form>
 
     <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>

@@ -17,7 +17,6 @@ header {
   padding: 48px;
   width: 100%;
   position: fixed;
-  
 }
 
 button {
@@ -33,11 +32,14 @@ button {
   font-weight: 600;
   font-size: 16px;
   line-height: 125%;
+  cursor: pointer;
 }
 
 #form-habits {
   display: flex;
-  padding: 182px 48px 48px;
+  justify-content: center;
+  align-items: center;
+  padding: 183px 48px 48px;
   width: fit-content;
 }
 
@@ -46,8 +48,7 @@ button {
   height: 64px;
   font-size: 32px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 
 .habits {
@@ -55,6 +56,7 @@ button {
   flex-direction: column;
   gap: 24px;
   margin-top: 60px;
+
 }
 
 .days {
@@ -87,15 +89,27 @@ input {
   border-radius: 8px;
   background: #18181b;
 }
-/* Pseudo-selector */
+
 input:checked {
   background: #8b5cf6;
   border: 2px solid #a78bfa;
 }
-
+/* 
+#text-habits {
+  display: none;
+  background: #8b5cf6;
+  width: 150px;
+  height: 35px;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+} */
 
 @media (max-width: 570px) {
-    button div{
-      display: none;
-    }
+  button div {
+    display: none;
+  }
 }
